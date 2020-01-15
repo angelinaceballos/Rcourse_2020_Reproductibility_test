@@ -1,0 +1,29 @@
+---
+title: "Reproductibility"
+author: "Angelina Ceballos"
+date: "15/1/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Version control (Git/GitHub)
+https://www.britishecologicalsociety.org/publications/guides-to/
+
+Version control using .git. All the code saved in .git folder, only see my paper on my folder:
+
+Set up a repo(folder)
+Add file: I want my script to be followed, I add it to Git
+Commit: save into Git with a little note explaining what I have changed to create a new version
+If we change that file, we add the file and commit it again, creating a new version. If I don’t like those changes I can always come back to the previous version
+
+To work from different computers, download from GitHub and you will have it in your computer. Also useful for collaboration, or CV purposes…
+
+-You can also update remote, save things… Language: Push to Github, Pull from Github
+
+-devtools::session :info() versions used, packages…
+- Checkpoint for reproductibility
+
+-packrat: save versions of R and packages
